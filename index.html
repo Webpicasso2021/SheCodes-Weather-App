@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>HW3_Weatherapp SheCodesPlus</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body" id="app">
+          <div class="card" class="today">
+            <div class="card-body">
+              <form id="search-form">
+                <input
+                  type="text"
+                  id="search-text-input"
+                  placeholder="Enter city"
+                  autocomplete="off"
+                  autofocus="on"
+                />
+                <input type="submit" id="search-text-button" value="search" />
+              </form>
+              <h1>Trieste</h1>
+              <h3></h3>
+              <h2 id="cityTemperature">35°C</h2>
+              <div class="rain-amount">💧mm</div>
+              <div class="sun-hours">☀️hour</div>
+              <a href="https://www.astrology.com/horoscope/daily.html"
+                >Your Daily Horoscope.</a
+              >
+              <br />
+              <a
+                href="https://news.google.com/topstories?hl=de&gl=DE&ceid=DE:de"
+                >What is happening in the world today?
+              </a>
+              <br />
+              <br />
+            </div>
+          </div>
+          <br />
+          <div class="card" class="preview">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-2">
+                  Mon
+                  <div class="weather-icon">☀️</div>
+                  <div class="maximum">max</div>
+                  <div class="minimum">min</div>
+                </div>
+                <div class="col-2">
+                  Tue
+                  <div class="weather-icon">☀️</div>
+                  <div class="maximum">max</div>
+                  <div class="minimum">min</div>
+                </div>
+                <div class="col-2">
+                  Wed
+                  <div class="weather-icon">⛈</div>
+                  <div class="maximum">max</div>
+                  <div class="minimum">min</div>
+                </div>
+                <div class="col-2">
+                  Thu
+                  <div class="weather-icon">☀️</div>
+                  <div class="maximum">max</div>
+                  <div class="minimum">min</div>
+                </div>
+                <div class="col-2">
+                  Fri
+                  <div class="weather-icon">☀️</div>
+                  <div class="maximum">max</div>
+                  <div class="minimum">min</div>
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/weather.js"></script>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+body {
+  font-family: monospace;
+}
+h1,
+h2,
+h3,
+#search-text-input,
+#search-text-button {
+  font-family: sans-serif;
+}
+h1 {
+  color: rgb(171, 71, 189);
+  font-weight: 400;
+  font-size: 50px;
+  padding-top: 70px;
+}
+h2 {
+  color: rgb(171, 71, 189);
+  font-size: 60px;
+  font-weight: 500;
+  display: inline;
+}
+h3 {
+  color: rgba(180, 125, 192, 0.575);
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+a {
+  color: rgb(26, 178, 168);
+  font-family: monospace;
+}
+#app {
+  padding: 40px;
+}
+#search-text-input {
+  position: absolute;
+  width: 30%;
+  padding: 15px;
+  left: 10px;
+  top: 20px;
+  margin: 10px 0 10px 20px;
+  background-color: #e2f3f4;
+  border-color: rgb(26, 178, 168);
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+}
+#search-text-button {
+  position: absolute;
+  width: 20%;
+  padding: 15px;
+  left: 300px;
+  top: 20px;
+  margin: 10px 20px 20px 0;
+  background-color: rgb(26, 178, 168);
+  border-color: rgb(26, 178, 168);
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+}
+div.rain-amount {
+  color: #43a5f5;
+  position: relative;
+  top: -35px;
+  left: 150px;
+}
+div.sun-hours {
+  color: #fcaf4a;
+  position: relative;
+  top: -80px;
+  left: 150px;
+}
+div.card-body {
+  background-color: #fbfbfc;
+  padding: 30px 0px 30px 45px;
+}
+.weather-icon {
+  font-size: 40px;
+  text-align: center;
+}
+.col-2 {
+  color: rgb(150, 150, 150);
+  font-size: 20px;
+  text-align: center;
+}
+.minimum {
+  color: #43a5f5;
+  background-color: #dbedfd;
+}
+.maximum {
+  color: #fcaf4a;
+  background-color: #faf2e5;
+}
