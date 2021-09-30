@@ -1,5 +1,6 @@
 body {
   font-family: monospace;
+  background: linear-gradient(135deg, #fbc6ff 20%, #bdfff9 90%);
 }
 h1,
 h2,
